@@ -4,12 +4,18 @@ body {
     background-repeat: no-repeat;
     background-image: url(./images/bg-desktop.svg);
     background-color: hsl(257, 40%, 49%);
-    padding: 3em;
+    padding: 1em 3em;
 }
 
 .logo {
-    margin: 3em 0;
+    margin: 2em 0;
     width: 15vw;
+}
+
+.ilustrativo {
+    width: 145vw;
+    height: 80vh;
+    margin-top: 3em;
 }
 
 main {
