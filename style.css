@@ -13,6 +13,11 @@ body {
 }
 
 main {
+    display: flex;
+    gap: 1.5em;
+}
+
+div {
     color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
 }
@@ -21,6 +26,16 @@ input {
     background-color: hsl(300, 69%, 71%);
     color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
+    padding: 10px 30px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 10px 5px 5px hsl(257, 48%, 32%);
+}
+
+input:hover {
+    background-color: #FFFFFF;
+    color: hsl(257, 40%, 49%);
 }
 
 .attribution { 
