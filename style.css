@@ -4,7 +4,7 @@ body {
     background-repeat: no-repeat;
     background-image: url(./images/bg-desktop.svg);
     background-color: hsl(257, 40%, 49%);
-    padding: 1em 3em;
+    padding: 1em 2em;
 }
 
 .logo {
@@ -13,7 +13,7 @@ body {
 }
 
 .ilustrativo {
-    width: 145vw;
+    width: 140vw;
     height: 80vh;
     margin-top: 3em;
 }
@@ -26,22 +26,24 @@ main {
 div {
     color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
+    padding: 70px 0 0 20px;
 }
 
 input {
-    background-color: hsl(300, 69%, 71%);
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: hsl(252, 17%, 49%);
     font-family: 'Open Sans', sans-serif;
-    padding: 10px 30px;
+    padding: 15px 50px;
     border-radius: 25px;
     border: none;
     cursor: pointer;
     box-shadow: 10px 5px 5px hsl(257, 48%, 32%);
+    font-weight: bold
 }
 
 input:hover {
-    background-color: #FFFFFF;
-    color: hsl(257, 40%, 49%);
+    background-color: hsl(300, 69%, 71%);
+    color: #FFFFFF;
 }
 
 .attribution { 
@@ -51,4 +53,9 @@ input:hover {
 
 .attribution a { 
     color: hsl(327, 88%, 50%); 
+}
+
+.redes {
+   padding-top: 0;
+   text-align: right;
 }
