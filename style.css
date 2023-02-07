@@ -59,3 +59,20 @@ input:hover {
    padding-top: 0;
    text-align: right;
 }
+
+@media screen and (min-width: 375px) and (max-width: 600px) {
+    body {
+        background-image: url(./images/bg-mobile.svg);
+    }
+
+    .ilustrativo {
+        width: 80vw;
+        height: 30vh;
+        margin-top: 1em;
+    }
+    
+    main {
+        display: inline;
+        text-align: center;
+    }
+}
